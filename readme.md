@@ -1,5 +1,7 @@
 # AWS Cloud Solution Design Assessment
 
+Design an AWS solution for deploying a chess game app using Next.js, NestJS, PostgreSQL, Redis, and WebSockets.
+
 ## Index 
 Based on the assignment.
 
