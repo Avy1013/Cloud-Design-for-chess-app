@@ -60,7 +60,7 @@ AWS API Gateway is used as it serverless nature handles WebSocket scaling by aut
  • Cache frequently accessed data in **ElastiCache (Redis)** to reduce database queries and improve response times.
 
 ## 4. Security 
- • **IAM (Identity and Access Management)**:
+**IAM (Identity and Access Management)**:
 
  • Implement the principle of least privilege by granting minimal permissions necessary for users and services.
 
@@ -68,7 +68,7 @@ AWS API Gateway is used as it serverless nature handles WebSocket scaling by aut
 
  • Enable Multi-Factor Authentication (MFA) for added security on critical accounts.
 
- • **VPC (Virtual Private Cloud) and Subnets**:
+**VPC (Virtual Private Cloud) and Subnets**:
 
  • Deploy resources in a VPC with private and public subnets to control network traffic.(as shown in the figure)
 
@@ -76,13 +76,13 @@ AWS API Gateway is used as it serverless nature handles WebSocket scaling by aut
 
  • Implement Network Access Control Lists (NACLs) for an additional layer of security.(Not shown in the figure)
 
- • **Secrets Manager**:
+**Secrets Manager**:
 
  • Securely store and manage sensitive information like database credentials and API keys.
 
  • Enable automatic rotation of secrets to enhance security and reduce the risk of credential exposure.
 
- • **CloudWatch**:
+**CloudWatch**:
 
  • Monitor AWS resources and applications using metrics, logs, and alarms.
 
@@ -103,7 +103,7 @@ AWS API Gateway is used as it serverless nature handles WebSocket scaling by aut
 
 ## 6. Scheduling 
 -  **Automated Game Cleanups**: Redis + lambda can be used to automatically remove old or inactive game sessions at regular intervals, ensuring efficient use of resources without manual intervention.
- • **Leaderboard Updates**: Schedule periodic updates to recalculate and      rank player scores, keeping leaderboards current and accurate for all users.
+-  **Leaderboard Updates**: Schedule periodic updates to recalculate and      rank player scores, keeping leaderboards current and accurate for all users.
 
 ## 7. Miscellaneous
 ### For server-- Ec2/ecs vs Fargate
