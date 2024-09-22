@@ -43,7 +43,7 @@ AWS API Gateway is used as it serverless nature handles WebSocket scaling by aut
 ## 3. Scaling & Cost Efficiency 
  • **Auto-Scaling**:
 
- • Utilize ECS/Fargate with Auto Scaling policies based on CPU and memory usage to dynamically adjust the number of containers.
+ • Utilize Auto Scaling policies based on CPU and memory usage to dynamically adjust the number of containers.
 
  • For RDS, enable read replicas and use RDS Auto Scaling to handle variable database loads efficiently.
 
